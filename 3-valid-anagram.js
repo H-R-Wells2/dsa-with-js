@@ -34,7 +34,7 @@ const isAnagram = function (s, t) {
   return true;
 };
 
-console.log(isAnagram("anagram", "nagarm"));
+console.log(isAnagram("anagram", "nagaarm"));
 
 // rat / tar
 

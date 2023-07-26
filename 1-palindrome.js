@@ -8,7 +8,7 @@ var isPalindrome = function (x) {
   return x < 0 ? false : x === +x.toString().split("").reverse().join("");
 };
 
-const res = isPalindrome(10);
+const res = isPalindrome(101);
 console.log(res);
 
 // 121 => "121" => ["1","2","1"] => ["1","2","1"] => "121"

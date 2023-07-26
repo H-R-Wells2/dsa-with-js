@@ -15,16 +15,23 @@ var fib = function (n) {
 
   return arr[n];
 };
+// fib(5);
+
 
 // Recursive Solution
-const fib = function (n) {
-  if (n <= 1) return n;
+// const fib = function (n) {
+//   if (n <= 1) return n;
 
-  return fib(n - 1) + fib(n - 2);
-};
+//   return fib(n - 1) + fib(n - 2);
+// };
+
 
 // One Liner
-const fib = (n) => (n <= 1 ? n : fib(n - 1) + fib(n - 2));
+// const fib = (n) => (n <= 1 ? n : fib(n - 1) + fib(n - 2));
+
+
+console.log(fib(6))
+
 
 // n = 3 => 1 + 1 => 2
 // fib(2) => 0 + 1 => 1
